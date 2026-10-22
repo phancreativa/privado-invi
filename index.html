@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f2eb">
+  <meta name="description" content="Acompáñanos a celebrar los XV años de Keyla Chávez Ventura.">
+  <title>Mis XV · Keyla Chávez Ventura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Estilos exclusivos de la canción; mantienen la paleta de la invitación */
+    .song-section { text-align:center; padding-top:clamp(3rem,7vw,5.5rem); padding-bottom:clamp(3rem,7vw,5.5rem); background:#fdf8f2; border-top:1px solid rgba(190,155,98,.65); border-bottom:1px solid rgba(190,155,98,.65); }
+    .song-section h2 { margin:.2em 0 .15em; color:#87515f; font-family:"Cormorant Garamond",Georgia,serif; font-size:clamp(2.3rem,6vw,3.5rem); font-weight:400; line-height:1.1; }
+    .song-section .gold-rule { margin:1rem auto 1.25rem; }
+    .song-message { max-width:38rem; margin:0 auto 1.8rem; color:#88777a; font-size:clamp(.95rem,2.4vw,1.08rem); line-height:1.8; }
+    .song-player { width:min(100%,34rem); margin:0 auto; padding:.45rem; border:1px solid #c6a263; background:#fffaf5; box-shadow:0 12px 28px rgba(112,76,77,.08); }
+    .song-player iframe { display:block; width:100%; aspect-ratio:16 / 9; height:auto; border:0; background:#f4e8df; }
+    .song-note { margin:1rem 0 0; color:#a18c8c; font-size:.82rem; letter-spacing:.04em; }
+    @media (max-width:480px) { .song-section { padding-left:1rem; padding-right:1rem; } .song-player { padding:.3rem; } }
+  </style>
+
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true">✿</div>
+  <div class="ambient ambient-two" aria-hidden="true">❀</div>
+
+  <section class="envelope-screen" id="envelopeScreen" aria-label="Abrir invitación">
+    
+<img
+  class="floral-decoration"
+  src="assets/flores-rosas.webp"
+  alt=""
+  aria-hidden="true"
+/>
+
+    <div class="envelope-scene">
+      <div class="envelope-copy">
+        <p class="eyebrow">Un día para soñar</p>
+        <h1>Tienes una invitación<br><em>muy especial</em></h1>
+        <p class="envelope-for">Para celebrar los XV años de</p>
+        <p class="envelope-name">Keyla Chávez Ventura</p>
+      </div>
+
+      <button class="envelope-button" id="openInvitation" type="button" aria-label="Abrir la invitación">
+        <span class="envelope-back"></span>
+        <span class="letter">
+          <span class="letter-flower" aria-hidden="true">✿</span>
+          <span class="letter-small">MIS XV AÑOS</span>
+          <span class="letter-name">Keyla</span>
+          <span class="letter-lastname">CHÁVEZ VENTURA</span>
+          <span class="letter-date">05 · 12 · 2026</span>
+        </span>
+        <span class="envelope-pocket"></span>
+        <span class="envelope-flap"></span>
+        <span class="wax-seal" aria-hidden="true">K</span>
+      </button>
+      <button class="open-label" id="openLabel" type="button">Toca el sobre para abrirlo <span>♡</span></button>
+   
+    </div>
+    <div class="opening-glow" aria-hidden="true"></div>
+
+    
+<img
+  src="assets/flores-rosas-inf.webp"
+  alt=""
+  class="flower-bottom"
+  aria-hidden="true"
+/>
+
+  </section>
+
+  <main id="invitation" class="invitation is-hidden">
+    <header class="hero section-shell">
+      <!-- Flores decorativas en las cuatro esquinas -->
+<img class="flor-esquina flor-superior-izquierda"
+     src="assets/flor-esquina%20flor-superior-izquierda.webp"
+     alt="" aria-hidden="true">
+
+<img class="flor-esquina flor-superior-derecha"
+     src="assets/flor-esquina%20flor-superior-derecha.webp"
+     alt="" aria-hidden="true">
+
+<img class="flor-esquina flor-inferior-izquierda"
+     src="assets/flor-esquina%20flor-inferior-izquierda.webp"
+     alt="" aria-hidden="true">
+
+<img class="flor-esquina flor-inferior-derecha"
+     src="assets/flor-esquina%20flor-inferior-derecha.webp"
+     alt="" aria-hidden="true">
+      
+      <p class="eyebrow">Con la bendición de Dios y de mi familia</p>
+      <p class="hero-pretitle">Mis XV años</p>
+      <h1 class="hero-name">Keyla <span>Chávez Ventura</span></h1>
+      <div class="floral-divider" aria-hidden="true"><i></i><span>♡</span><i></i></div>
+      <p class="hero-message">Hay momentos que se guardan en el corazón para siempre.<br>Me encantaría compartir este día tan especial contigo.</p>
+      <div class="hero-date-frame">
+        <span>SÁBADO</span><i></i><strong>05</strong><i></i><span>DICIEMBRE · 2026</span>
+      </div>
+      <a class="scroll-cue" href="#countdown">Descubre los detalles <span aria-hidden="true">↓</span></a>
+      
+    </header>
+
+
+    <!-- Nuestra canción: entre la presentación y la cuenta regresiva -->
+    <section class="song-section section-shell" id="nuestra-cancion">
+  
+      <h2>Una melodía para recordar</h2>
+      <div class="gold-rule" aria-hidden="true"><span>♡</span></div>
+      
+      <div class="song-player music-card">
+        <audio id="invitationMusic" preload="metadata">
+          <source src="assets/music.mp3" type="audio/mpeg">
+          Tu navegador no puede reproducir este audio.
+        </audio>
+        <div class="music-cover" aria-hidden="true">
+          <span class="music-flower">✿</span>
+          <span class="music-cover-label">MIS XV AÑOS</span>
+          <span class="music-cover-name">Keyla</span>
+          <span class="music-cover-subtitle">“Hay momentos que merecen su propia melodía.”</span>
+        </div>
+        <div class="music-controls">
+          <button class="music-play" id="musicPlay" type="button" aria-label="Reproducir canción" aria-pressed="false">
+            <span id="musicPlayIcon" aria-hidden="true">▶</span>
+          </button>
+          <div class="music-track">
+            <div class="music-track-title">Strawberry Guy - Mrs Magic</div>
+            <div class="music-track-subtitle">Keyla Chávez Ventura · XV años</div>
+            <input class="music-progress" id="musicProgress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Progreso de la canción">
+            <div class="music-times"><span id="musicCurrentTime">0:00</span><span id="musicDuration">0:00</span></div>
+          </div>
+        </div>
+      </div>
+      <p class="song-note" id="musicStatus" role="status">Toca el botón para escuchar la canción ♡</p>
+    </section>
+
+    <section class="countdown-section section-shell" id="countdown">
+      <p class="eyebrow">Cada vez falta menos</p>
+      <h2>La cuenta regresiva</h2>
+      <div class="gold-rule" aria-hidden="true"><span>✧</span></div>
+      <div class="countdown" aria-label="Cuenta regresiva hasta el evento">
+        <div><strong id="days">00</strong><span>Días</span></div>
+        <div><strong id="hours">00</strong><span>Horas</span></div>
+        <div><strong id="minutes">00</strong><span>Minutos</span></div>
+        <div><strong id="seconds">00</strong><span>Segundos</span></div>
+      </div>
+      <p id="countdownMessage" class="small-message">¡Qué emoción celebrar juntos!</p>
+      <div class="countdown-flower" aria-hidden="true">✿</div>
+    </section>
+
+    <section class="details-section section-shell">
+      <div class="section-heading">
+        <p class="eyebrow">Celebremos juntos</p>
+        <h2>Detalles del evento</h2>
+        <div class="gold-rule" aria-hidden="true"><span>♡</span></div>
+        <p>Tu presencia hará este día aún más inolvidable.</p>
+      </div>
+      <div class="event-cards">
+        <article class="event-card">
+          <div class="event-icon" aria-hidden="true">♧</div>
+          <p class="eyebrow">Agradezco a Dios por este día y por las personas que llenan mi vida de alegría</p>
+          <h3>La ceremonia</h3>
+          <p class="event-time">2:00 P.M.</p>
+          <p class="event-address">Parroquia de San Mateo</p>
+          <a class="map-preview" href="https://maps.app.goo.gl/xheetGQmHBDvRXXq5" target="_blank" rel="noopener noreferrer" aria-label="Abrir ubicación de la Parroquia de San Mateo en Google Maps">
+            <img src="assets/mapa-ceremonia.webp" alt="Mapa de ubicación de la Parroquia de San Mateo" loading="lazy">
+            <span class="map-preview-hint">⌖ Ver mapa en Google Maps</span>
+          </a>
+          <a class="map-button" id="ceremonyMap" href="https://maps.app.goo.gl/xheetGQmHBDvRXXq5" target="_blank" rel="noopener noreferrer">⌖ <span>Ver ubicación en Maps</span></a>
+        </article>
+        <article class="event-card">
+          <div class="event-icon" aria-hidden="true">✿</div>
+          <p class="eyebrow">La magia de este día será aún más bonita si lo compartimos juntos</p>
+          <h3>La celebración</h3>
+          <p class="event-time">Al finalizar la ceremonia se podra ingresar</p>
+          <p class="event-address">Salón Imperio</p>
+          <a class="map-preview" href="https://maps.app.goo.gl/Q1eauvvuHCPVCmEz5" target="_blank" rel="noopener noreferrer" aria-label="Abrir ubicación del Salón Imperio en Google Maps">
+            <img src="assets/mapa-celebracion.webp" alt="Mapa de ubicación del Salón Imperio" loading="lazy">
+            <span class="map-preview-hint">⌖ Ver mapa en Google Maps</span>
+          </a>
+          <a class="map-button" id="receptionMap" href="https://maps.app.goo.gl/Q1eauvvuHCPVCmEz5" target="_blank" rel="noopener noreferrer">⌖ <span>Ver ubicación en Maps</span></a>
+        </article>
+      </div>
+      <div class="route-card">
+        <div class="route-copy">
+          <p class="eyebrow">De la ceremonia a la recepción</p>
+          <h3>¿Cómo llegar al Salón Imperio?</h3>
+          <p>Consulta el recorrido desde la Parroquia de San Mateo hasta el lugar de la celebración.</p>
+        </div>
+        <a class="route-map-preview" href="https://www.google.com/maps/dir/?api=1&origin=Parroquia+San+Mateo%2C+Chilpancingo+de+los+Bravo%2C+Guerrero&destination=Sal%C3%B3n+Imperio%2C+Chilpancingo+de+los+Bravo%2C+Guerrero&travelmode=driving" target="_blank" rel="noopener noreferrer" aria-label="Abrir recorrido de la Parroquia de San Mateo al Salón Imperio en Google Maps">
+          <img src="assets/mapa-recorrido.webp" alt="Mapa del recorrido desde la Parroquia de San Mateo hasta el Salón Imperio" loading="lazy">
+          <span class="map-preview-hint">⌖ Ver recorrido en Google Maps</span>
+        </a>
+        <a class="map-button" href="https://www.google.com/maps/dir/?api=1&origin=Parroquia+San+Mateo%2C+Chilpancingo+de+los+Bravo%2C+Guerrero&destination=Sal%C3%B3n+Imperio%2C+Chilpancingo+de+los+Bravo%2C+Guerrero&travelmode=driving" target="_blank" rel="noopener noreferrer">⌖ <span>Ver recorrido en Maps</span></a>
+      </div>
+    </section>
+
+    <section class="rsvp-section section-shell" id="rsvp">
+      <div class="rsvp-flower" aria-hidden="true">❀</div>
+      <p class="eyebrow">Tu compañía es mi mejor regalo</p>
+      <h2>¿Me acompañas?</h2>
+      <div class="gold-rule" aria-hidden="true"><span>♡</span></div>
+      <p>Me encantaría contar contigo en este día tan especial.</p>
+
+      <form class="rsvp-form" id="rsvpForm">
+        <label class="rsvp-field" for="guestName">
+          <span>Nombre completo <small>(opcional)</small></span>
+          <input id="guestName" name="name" type="text" maxlength="120" autocomplete="name" placeholder="Escribe tu nombre">
+        </label>
+
+        <fieldset class="rsvp-field">
+          <legend>¿Asistirás? <span aria-hidden="true">*</span></legend>
+          <div class="rsvp-options">
+            <label class="rsvp-option">
+              <input type="radio" name="attending" value="yes" required>
+              <span>♡ &nbsp; ¡Sí, ahí estaré!</span>
+            </label>
+            <label class="rsvp-option">
+              <input type="radio" name="attending" value="no" required>
+              <span>No podré asistir</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="rsvp-field" id="guestCountField" hidden>
+          <legend>¿Cuántas personas asistirán? <span aria-hidden="true">*</span></legend>
+          <p class="rsvp-hint">Incluyéndote a ti.</p>
+          <div class="guest-count-options">
+            <label><input type="radio" name="guestCount" value="1"><span>1<small>persona</small></span></label>
+            <label><input type="radio" name="guestCount" value="2"><span>2<small>personas</small></span></label>
+            <label><input type="radio" name="guestCount" value="3"><span>3<small>personas</small></span></label>
+            <label><input type="radio" name="guestCount" value="4"><span>4<small>personas</small></span></label>
+            <label><input type="radio" name="guestCount" value="5"><span>5<small>personas</small></span></label>
+          </div>
+        </fieldset>
+
+        <button class="button button-primary rsvp-submit" id="rsvpSubmit" type="submit">Aceptar <span>♡</span></button>
+        <p class="rsvp-status" id="rsvpStatus" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="attendee-counter" aria-live="polite">
+        <span class="counter-icon" aria-hidden="true">♧</span>
+        <p class="eyebrow">Personas confirmadas</p>
+        <strong id="attendeeTotal">0</strong>
+        <span id="attendeeLabel">asistentes confirmados</span>
+      </div>
+    </section>
+
+    <footer class="footer section-shell">
+      <div class="floral-divider" aria-hidden="true"><i></i><span>♡</span><i></i></div>
+      <p>Con cariño,</p>
+      <p class="footer-name">Keyla Chávez Ventura</p>
+      <p class="footer-date">05 · 12 · 2026</p>
+      <p class="footer-closing">¡Nos vemos pronto!</p>
+    </footer>
+  </main>
+
+  <!-- Coloca music.mp3 dentro de la carpeta assets para que funcione el reproductor. -->
+ 
+  <script src="script.js"></script>
+</body>
+</html>
